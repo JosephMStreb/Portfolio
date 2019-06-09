@@ -59,6 +59,8 @@ test_data = pd.read_csv("C:\\Users\\Joseph Streb\\Documents\\Python Scripts\\Dat
 #train_data1["Name"] = train_data['Name'].str.replace('[^\w\s]','')
 #words = pd.Series(' '.join(train_data1['Name']).lower().split()).value_counts()[90:120]
 
+train_data.tail()
+
 #-------------------------------------------------------------------------------------------------------------------
 #Feature Engineering
 #-------------------------------------------------------------------------------------------------------------------
